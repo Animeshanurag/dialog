@@ -1,0 +1,725 @@
+body { background: #fff; }
+
+header {
+   position: relative;
+   height: 800px;
+   min-height: 500px;
+   width: 100%;   
+   text-align: center;
+   overflow: hidden;
+}
+
+header:before {
+   content: '';
+   display: inline-block;
+   vertical-align: middle;
+   height: 100%;
+}
+header .banner {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 auto;
+   width: 85%;
+   padding-bottom: 30px;
+   text-align: center;
+}
+
+header .banner-text { width: 100%; }
+header .banner-text h1 {
+   font: 90px/1.1em 'Raleway-bold';
+   background: -webkit-linear-gradient(left, #3fb9ff, #3b1488);
+   background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   letter-spacing: 1px;
+   margin: 2.4px 6.8px 27.7px 0;
+   
+}
+header .banner-text h3 {
+   font-family: 'Raleway-light';
+   font-weight: 400;
+   font-size: 40px;
+   color: rgb(0, 0, 0);
+   margin: 56.4px 64px 59px 305.2px;
+   width: 500px;
+   height: 50px;
+   text-align: center;   
+}
+header .banner-text h3 span,
+header .banner-text h3 a {
+   color: rgb(3, 3, 3);
+}
+
+header .social {
+   margin: 24px 0;
+   padding: 0;
+   font-size: 59px;
+}
+header .social button {
+   width: 404px;
+   height: 100px;
+   margin:  10 0 0 44px;
+   margin-left: 44px;
+   padding: 15px 110px 31px;
+   border-radius: 20px;
+   background-color: #ffffff;
+}
+header .social button a { color: rgb(255, 255, 255); }
+header .social button a:hover { color: #1168f5; }
+
+header .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   margin-bottom: 100px;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #3b1488;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+header .scrolldown a:hover { color: #629af5; }
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+	 margin: 0;
+	 padding: 0;
+	 border: none;
+	 outline: none;
+}
+
+#nav-wrap {
+   font: 12px 'Raleway-light';
+   width: 100%;   
+   letter-spacing: 2.5px;
+   margin: 0 auto;
+   z-index: 100;
+   position: fixed;
+   left: 0;
+   top: 0;
+}
+
+#nav-wrap img{
+   text-align: left;
+}
+
+#nav-wrap button{
+   font-size: small;
+   font-family: 'Raleway-Bold';
+   margin-bottom: 12px;
+   padding-top: 12px;
+   /* font-weight: 300; */
+   height: 50px;
+}
+
+
+
+.opaque { background-color: #ffffff; }
+
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+   text-align: right;
+}
+ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 48px;
+   display: inline;
+   width: 54px;
+  height: 29px;
+  margin: 29.5px 20.2px 16.9px 21.4px;
+  font: 'Raleway-Light';
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4.66;
+  letter-spacing: normal;
+  text-align: right;
+  color: #000000;
+}
+
+ul#nav li a {
+
+
+   display: inline-block;
+   padding: 8px 13px;
+   line-height: 32px;
+	text-decoration: none;
+   text-align: left;
+   color: rgb(0, 0, 0);
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #fe6928; }
+
+
+
+#about {
+   border-radius: 50px;
+   background-image: linear-gradient(to right, #5a6edf , #3b1488 );
+   width: 1824px;
+   height: 695px;
+   margin: 127.5px 1.3px 153px 120px;
+   text-align: left;
+   padding: 118px 124px 104px 94px;
+}
+
+#about a, #about a:visited  { color: rgb(219, 214, 241); }
+#about a:hover, #about a:focus { color: #0762f9; }
+
+#about h1 {
+   width: 760px;
+  height: 94px;
+  margin: 0 436px 48.8px 0;
+  font-family: 'Raleway-bold';
+  font-size: 80px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 2.56px;
+  color: #ffffff;
+}
+#about p {
+   width: 938px;
+  height: 37px;
+  margin: 48.8px 205px 43.8px 20px;
+  font-family: 'Raleway-light';
+  font-size: 32px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+#about .masked {
+   width: 420px;
+   height: 353px;
+}
+#about .main-col { 
+   padding-right: 1%; 
+   text-align: left; 
+}
+
+
+#resume {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#resume a, #resume a:visited  { color: #0762f9; }
+#resume a:hover, #resume a:focus { color: #313131; }
+
+#resume h1 {
+   font: 18px/24px 'Raleway-bold';
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#resume h1 span {
+   border-bottom: 3px solid #0762f9;
+   padding-bottom: 6px;
+}
+#resume h3 {
+   font: 25px/30px 'Raleway-bold', sans-serif;
+}
+
+#resume .header-col { padding-top: 9px; }
+#resume .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#resume .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#resume .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#resume .date {
+   font: 15px/24px 'Raleway-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* portfolio section */
+
+#portfolio {
+   background: rgb(255, 255, 255);
+   padding-top: 90px;
+   padding-bottom: 125px;
+   overflow: hidden;
+   text-align: center;
+}
+#portfolio text{
+   text-align: center;
+}
+
+#portfolio .selected{
+   margin: 10px 40px 10px 21px;
+   padding: 32px 87px 31px;
+   border-radius: 20px;
+   border: solid 2px #3b1488;
+   background-color: #fcf8f8;
+   color: #000000;
+   font-weight: bolder;
+   font-family: 'Raleway-Bold';
+   font-size: 25px;
+}
+
+/* popup modal */
+.popup-modal {
+	max-width: 550px;
+	background: #fff;
+	position: relative;
+	margin: 0 auto;
+}
+.popup-modal .description-box { padding: 12px 36px 18px 36px; }
+.popup-modal .description-box h4 {
+   font: 15px/24px 'Raleway-bold', sans-serif;
+	margin-bottom: 12px;
+   color: #111;
+}
+.popup-modal .description-box p {
+	font: 14px/24px 'Raleway-regular', sans-serif;
+   color: #A1A1A1;
+   margin-bottom: 12px;
+}
+.popup-modal .description-box .categories {
+   font: 11px/21px 'Raleway-light', sans-serif;
+   color: #A1A1A1;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   display: block;
+   text-align: left;
+}
+.popup-modal .description-box .categories i {
+   margin-right: 8px;
+}
+.popup-modal .link-box {
+   padding: 18px 36px;
+   background: #111;
+   text-align: left;
+}
+.popup-modal .link-box a {
+   color: #fff;
+	font: 11px/21px 'Raleway-bold', sans-serif;
+	text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+
+
+/* fadein/fadeout effect for modal popup
+/* ------------------------------------------------------------------ */
+
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+   opacity: 0;
+   -webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+   transition: all 200ms ease-in-out;
+}
+/* content fadein */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+   opacity: 1;
+}
+/* content fadeout */
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+   opacity: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* f. Call To Action Section
+/* ------------------------------------------------------------------ */
+
+#call-to-action {
+   background: #212121;
+   padding-top: 66px;
+   padding-bottom: 48px;
+}
+#call-to-action h1 {
+   font: 18px/24px 'Raleway-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#call-to-action h1 span { display: none; }
+#call-to-action .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0ac";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+#call-to-action .action {
+   margin-top: 12px;
+}
+#call-to-action h2 {
+   font: 28px/36px 'Raleway-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#call-to-action h2 a {
+   color: inherit;
+}
+#call-to-action p {
+   color: #636363;
+   font-size: 17px;
+}
+/*#
+call-to-action .button {
+	color:#fff;
+   background: #0D0D0D;
+}
+*/
+#call-to-action .button:hover,
+#call-to-action .button:active {
+   background: #FFFFFF;
+   color: #0D0D0D;
+}
+#call-to-action p span {
+	font-family: 'Raleway-semibold', sans-serif;
+	color: #D8D8D8;
+}
+
+/* Necessary Styles */
+.flexslider {
+   position: relative;
+   zoom: 1;
+   margin: 0;
+   padding: 0;
+}
+.flexslider .slides { zoom: 1; }
+.flexslider .slides > li { position: relative; }
+
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides > li { display: none; backface-visibility: hidden ;-webkit-backface-visibility: hidden; }
+/* Suggested container for slide animation setups. Can replace this with your own */
+.flex-container { zoom: 1; position: relative; }
+
+/* Clearfix for .slides */
+.slides:before,
+.slides:after {
+   content: " ";
+   display: table;
+}
+.slides:after {
+   clear: both;
+}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child { display: block; }
+
+/* Slider Styles */
+.slides { zoom: 1; }
+.slides > li {
+   /*margin-right: 5px; */
+   overflow: hidden;
+}
+
+/* Control Nav */
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    text-align: left;
+}
+.flex-control-nav li {
+    margin: 0 6px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flex-control-paging li a {
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: #ddd;
+    background: rgba(255, 255, 255, .3);
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
+}
+.flex-control-paging li a:hover {
+    background: #CCC;
+    background: rgba(255, 255, 255, .7);
+}
+.flex-control-paging li a.flex-active {
+    background: #fff;
+    background: rgba(255, 255, 255, .9);
+    cursor: default;
+}
+
+/* ------------------------------------------------------------------ */
+/* h. Contact Section
+/* ------------------------------------------------------------------ */
+
+#contact {
+   background: #ffffff;
+   padding-top: 96px;
+   padding-bottom: 102px;
+   color: #636363;
+   text-align: center;
+}
+/* #contact .section-head {
+   margin-bottom: 42px;
+   text-align: center; 
+} */
+/* 
+#contact a, #contact a:visited  { color: #0762f9; }
+#contact a:hover, #contact a:focus { color: #fff; } */
+
+#contact h1 {
+   font: 50px/24px 'Raleway-bold';
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #000000;
+   text-align: center;
+   margin-bottom: 6px;
+}
+/* #contact h1 span { display: none; } */
+#contact h1:before {
+   font-family: 'Raleway-bold';
+   content: "\f0e0";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #ebeeee;
+}
+
+#contact h4 {
+   font: 16px/24px 'Raleway-bold';
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#contact p.lead {
+   font: 18px/36px 'Raleway-light';
+   padding-right: 3%;
+}
+#contact .header-col { padding-top: 6px; }
+
+
+
+
+
+/* Twitter Feed */
+#twitter {
+   margin-top: 12px;
+   padding: 0;
+}
+#twitter li {
+   margin: 6px 0px 12px 0;
+   line-height: 30px;
+}
+#twitter li span {
+   display: block;
+}
+#twitter li b a {
+   font: 13px/36px 'Raleway-regular', Sans-serif;
+   color: #474747 !important;
+   border: none;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #000000;
+   font-size: 14px;
+   /* text-align: left; */
+   position: relative;
+   padding-left: 1px ;
+}
+
+footer a, footer a:visited { color: #525252; }
+footer a:hover, footer a:focus { color: #3b1418; }
+
+/* copyright */
+footer .copyright {
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+ }
+footer .copyright li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+}
+footer .copyright a{
+   display: flex;
+   justify-content: space-around;
+}
+/* footer .conditions {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+footer .conditions li{
+   display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+} */
+.ie footer .copyright li {
+   display: inline;
+}
+footer .copyright li:before {
+    content: "\2022";
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #095153;
+}
+footer .copyright  li:first-child:before {
+    display: none;
+}
+
+/* social links */
+footer .social-links {
+   margin: 18px 0 30px 0;
+   padding: 0;
+   font-size: 30px;
+}
+footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 42px;
+    color: #F06000;
+}
+
+footer .social-links li:first-child { margin-left: 0; }
+
+/* Go To Top Button */
+#go-top {
+	position: absolute;
+	top: -24px;
+   left: 50%;
+   margin-left: -30px;
+}
+#go-top a {
+	text-decoration: none;
+	border: 0 none;
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #525252;
+
+	-webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   -ms-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+
+   color: #fff;
+   font-size: 21px;
+   line-height: 60px;
+ 	border-radius: 100%;
+}
+#go-top a:hover { background-color: #0F9095; }
+
+
+.social .btn:first-child{
+   margin-right: 30px;
+}
+.social .btn{
+   display: inline-block;
+   font-size: 21px;
+   background-color: #3b1488;
+   color: #fff;
+}
+.project-btn{
+   width: 230px;
+  height: 37px;
+  font-family: 'Raleway-Bold';
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3b1488;
+
+}
+.github-btn{
+  width: 242px;
+  height: 37px;
+  font-family: 'Raleway-Bold';
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.5;
+  letter-spacing: normal;
+  text-align: left;
+}
+.save{
+   font-family: 'Raleway-Bold';
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+}
+
+.submit{
+   font-family: 'Raleway-Bold';
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+}
