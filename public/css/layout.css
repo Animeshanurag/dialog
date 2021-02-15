@@ -1,4 +1,4 @@
-body { background: #fff; }
+body { background: url(Backgrounddialog.png); }
 
 header {
    position: relative;
@@ -7,6 +7,7 @@ header {
    width: 100%;   
    text-align: center;
    overflow: hidden;
+   
 }
 
 header:before {
@@ -219,7 +220,45 @@ ul#nav li.current a { color: #fe6928; }
    text-align: left; 
 }
 
-
+#authentication {
+   background-color: #ffffff;
+}
+#authentication .textfield {
+   background-color: linear-gradient(left, #3fb9ff, #3b1488);
+   width: 900px;   
+   color: #3b1488;
+   height: 150;
+   padding: '0 50px';
+}
+#authentication .label{
+   width: 900px;
+   margin-left: 570px;
+}
+#authentication .label1{
+   width: 900px;
+   margin-left: 570px;
+   /* padding: 15px; */
+}
+#authentication .label2{
+   width: 900px;
+   margin-left: 570px;
+   /* padding: 15px; */
+}
+#authentication .label3{
+   width: 900px;
+   margin-left: 570px;
+   /* padding: 15px; */
+}
+#authentication .label4{
+   width: 900px;
+   margin-left: 570px;
+   /* padding: 15px; */
+}
+#authentication .label5{
+   width: 900px;
+   margin-left: 570px;
+   /* padding: 15px; */
+}
 #resume {
    background: #fff;
    padding-top: 90px;
@@ -723,3 +762,4 @@ footer .social-links li:first-child { margin-left: 0; }
   line-height: 2;
   letter-spacing: normal;
 }
+

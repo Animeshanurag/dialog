@@ -2,6 +2,7 @@ import React from 'react';
 import {
    useHistory
 } from "react-router-dom";
+import Group211 from "../Group211.png";
 
 function Header() {
    const history = useHistory();
@@ -28,7 +29,10 @@ function Header() {
       <div className="row banner">
       
          <div className="banner-text">
-            <h1 className="responsive-headline">Are you the next sensational writer?</h1>
+         <img className="masked"  src={Group211} alt="masked typewriter" />
+            <h1 className="responsive-headline">
+               Are you the next sensational writer?
+            </h1>
             <h3>Win Prizes worth $10000*.</h3>
             <ul className="social">
                <button className="button project-btn">Tell me more</button>

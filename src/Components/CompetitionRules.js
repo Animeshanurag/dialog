@@ -1,5 +1,5 @@
 import React from 'react';
-// import maskedgroup from './Assets/maskedgroup.png';
+import maskgroup from '../maskgroup.png';
 
 function CompetitionRules() {
   
@@ -17,9 +17,9 @@ function CompetitionRules() {
 					   </p>
                   
          </div>
-         {/* <div className="three columns">
-            <img className="masked"  src={maskedgroup} alt="masked typewriter" />
-         </div> */}
+         <div className="three columns">
+            <img className="masked"  src={maskgroup} alt="masked typewriter" />
+         </div>
    </section>
     );
 }

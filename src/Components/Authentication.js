@@ -9,8 +9,8 @@ import {
 const useStyles = makeStyles((theme) => ({
   root: {
     '& .MuiTextField-root': {
-      margin: theme.spacing(3),
-      width: 500,
+      margin: theme.spacing(2),
+      
     },
   },
 }));
@@ -26,35 +26,57 @@ function Authentication() {
 
   return (
     
-    <form className={classes.root} noValidate autoComplete="off">
-      
-      <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Help</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact Us</a></li>
-         </ul>
+  <form className={classes.root} noValidate autoComplete="on">
+        <ul id="nav" className="nav">
+          <li className="current"><a className="smoothscroll" href="#home">Help</a></li>
+           <li><a className="smoothscroll" href="#contact">Contact Us</a></li>
+        </ul>
+        <h1 className="responsive-headline">
+          Registration Form
+        </h1>
+        <hr />
+        <ul id="authentication">
+        <React.Fragment>
+        
         <div>
-        <TextField id="filled-basic" label="Handle" variant="filled" />
+        <label className="label"> Handle 
+          <TextField className="textfield" id="filled-basic" variant="filled"  />
+        </label> 
         </div>
         <div>
-          <TextField error id="filled-basic" label="Name" variant="filled" />
-          </div>
-          <div>
-          <TextField error id="filled-error-helper-text" label="Email-Id" variant="filled" />
+          <label className="label1"> Name
+          <TextField className="textfield" id="filled-basic" variant="filled"  />
+          </label>
         </div>
         <div>
-          <TextField error id="outlined-error" label="Bio" variant="outlined" />
+          <label className="label2"> Email-id
+          <TextField className="textfield" id="filled-basic" variant="filled"  />
+          </label>
         </div>
         <div>
-          <TextField error id="outlined-error-helper-text" label="Phone No." variant="outlined" />
+          <label className="label3"> Bio
+          <TextField className="textfield" id="filled-basic" variant="filled"  />
+          </label>
         </div>
         <div>
-          <TextField error id="outlined-error-helper-text" label="OTP." variant="outlined" />
+          <label className="label4"> Phone Number
+          <TextField className="textfield" id="filled-basic" variant="filled"  />
+          </label>
         </div>
         <div>
-        <BackButton />
-        <button onClick={routeChange1} className="button">LOGIN</button>
-      </div>
-    </form>
+          <label className="label5"> OTP
+          <TextField className="textfield" id="filled-basic" variant="filled"  />
+          </label>
+        </div>
+      {/* <div className="row banner" > */}
+      <ul className="social">
+      <BackButton />
+      <button onClick={routeChange1} className="btn">Register Now</button>
+    </ul>
+    {/* </div> */}
+    </React.Fragment>
+    </ul>
+   </form>
   );
 }
 
